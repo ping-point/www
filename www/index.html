@@ -1,191 +1,183 @@
 <!DOCTYPE HTML> 
-<html lang='pl'  > 
-<head>
-	<script>
-(function(d, s, id) {
-var js, fjs = d.getElementsByTagName(s)[0];
-if (d.getElementById(id)) return;
-js = d.createElement(s); 
-js.id = id;js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.11&appId=532160876956612";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook­jssdk'));
-</script>
+<html lang='pl'  >
+   <head>
+      <script>
+         (function(d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); 
+         js.id = id;js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.11&appId=532160876956612";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook­jssdk'));
+      </script>
+      <meta charset='utf-8'>
+      <meta name="Keywords" content="programowanie,zespół 10,ping-pong,ping-point,liczenie punktów ping pong" />
+      <meta name="description" content="Ping-Point - Innowacyjna aplikacja liczącą w czasie rzeczywistym punkty podczas grania w Ping-Ponga" />
+      <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+      <title>Ping Point - Aplikacja stworzona przez Zespół X</title>
+		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-	<meta charset='utf-8'>
-	<meta name="Keywords" content="programowanie,zespół 10,ping-pong,ping-point,liczenie punktów ping pong" />
-	<meta name="description" content="Ping-Point - Innowacyjna aplikacja liczącą w czasie rzeczywistym punkty podczas grania w Ping-Ponga" />
-	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
-	<title>Ping Point - Aplikacja stworzona przez Zespół X</title>
-	<link rel="icon" type="image/png" href="https://aleks-2.mat.umk.pl/pz2017/zesp10/favicon-32x32.png" sizes="32x32" />
-	
-	<!-- ManyChat -->
-<script src="//widget.manychat.com/2119834964919654.js" async="async">
-</script>
+      <!-- ManyChat -->
+      <script src="//widget.manychat.com/2119834964919654.js" async="async"></script>
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+      <div class='cont' >
+         <header>
+            <div class="navi">
+               <div class="logo" >
+                  <a href="index.html"><img id="logo" src="images/unnamed.png"  alt="Logo zespól 10"/> </a>	
+               </div>
+               <a href="#" class="btn open-menu">MENU</a>
+               <div class="menur">
+                  <nav class="clearfix">
+                     <a href="#" class="btn hide" >&laquo; Zamknij</a>
+                     <a href="#zespol"  class="btn">Zespół</a>
+                     <a href="#harmonogram" class="btn">Harmonogram</a>
+                     <a href="#spotkania" class="btn">Spotkania</a>
+                     <a href="#jo" class="btn">O projekcie</a>
+               </div>
+               </nav>
+            </div>
+         </header>
+         <div class="outer-wrapper">
+            <div class="s-wrap s-type-1" role="slider">
+               <input type="radio" id="s-1" name="slider-control" checked="checked">
+               <input type="radio" id="s-2" name="slider-control">
+               <input type="radio" id="s-3" name="slider-control">
+               <input type="radio" id="s-4" name="slider-control">
+               <input type="radio" id="s-5" name="slider-control">
+               <ul class="s-content">
+                  <li class="s-item s-item-1"></li>
+                  <li class="s-item s-item-2"></li>
+                  <li class="s-item s-item-3"></li>
+                  <li class="s-item s-item-4"></li>
+                  <li class="s-item s-item-5"></li>
+               </ul>
+               <div class="s-control">
+                  <label class="s-c-1" for="s-1"></label>
+                  <label class="s-c-2" for="s-2"></label>
+                  <label class="s-c-3" for="s-3"></label>
+                  <label class="s-c-4" for="s-4"></label>
+                  <label class="s-c-5" for="s-5"></label>
+               </div>
+               <div class="s-nav">
+                  <label class="s-nav-1 right" for="s-2"></label>
+                  <label class="s-nav-2 left" for="s-1"></label>
+                  <label class="s-nav-2 right" for="s-3"></label>
+                  <label class="s-nav-3 left" for="s-2"></label>
+                  <label class="s-nav-3 right" for="s-4"></label>
+                  <label class="s-nav-4 left" for="s-3"></label>
+                  <label class="s-nav-4 right" for="s-5"></label>
+                  <label class="s-nav-5 left" for="s-4"></label>
+               </div>
+            </div>
+         </div>
+         <br /><br />
+         <div class="pasek" id="idea">
+            <b> Idea Projektu</b>
+         </div>
+         <div class = "tresc">
+            <br/>
+            Idea projektu powstała podczas spotkania zespołu 3 listopada 2017 roku.<br/> Naszym celem jest stworzenie nowatorskiego systemu liczenia punktów podczas grania w ping-ponga.
+            <br/> Z doświadczenia wiemy że gracze często nie mogą się skupić na grze a czasami nawet kłócą się jaki jest faktycznie wynik.<br/>  Poprzez rejestrowanie całego przebiegu meczu kamerą jesteśmy w stanie na żywo liczyć punkty obu graczom <br /> oraz umieszczać je na stronie co mogłoby posłużyć do łatwego tworzenia turnieji między kilkoma graczami a także publikowanie wyników w internecie.
+            <br/><br/>
+         </div>
+         <div id="harmonogram"></div>
+         <div class="pasek"> <b>Harmonogram</b></div>
+         <div class = "tresc">
+            <p>29.11.2017 (środa) - testy z modułem wejścia</p>
+            <p>06.12.2017 (środa) - wybranie wejścia</p>
+            <p>13.12.2017 (środa) - zbieranie informacji</p>
+            <p>17.01.2018 (środa) - stworzenie poprawnie działającego modułu</p>
+            <p>25.02.2018 (niedziela) - napisanie aplikacji obsługującej sygnał z modułu</p>
+            <p>04.03.2018 (niedziela) - testy</p>
+            <p>18.03.2018 (niedziela) - stworzenie bazy danych z aktualnymi wynikami</p>
+            <p>25.03.2018 (niedziela) - tworzenie trybów rozgrywki</p>
+            <p>08.04.2018 (niedziela) - aplikacja webowa tworząca turnieje</p>
+            <p>29.04.2018 (niedziela) - poprawki/łatki</p>
+            <p>07.05.2018 (poniedziałek) - ostateczne oddanie projektu</p>
+         </div>
+         <div id="spotkania">
+            <div class="pasek"> 
+               <b>Spotkania</b>
+            </div>
+         </div>
 
- <link rel="stylesheet" href="css/style.css">
-</head>
-
-
-
-
-
-<body>
-<div class='container' >
-
-
-
-<header>
-
-<div class="navi">
-<div class="logo" >
-		
-		<a href="index.html"><img id="logo" src="images/unnamed.png"  alt="Logo zespól 10"/> </a>	
-</div>
-
-
-<a href="#" class="btn open-menu">MENU</a>
-
-	<div class="menur">
-	<nav class="clearfix">
-	
-		<a href="#" class="btn hide" >&laquo; Zamknij</a>
-		<a href="#galeria"  class="btn">Galeria</a>
-		<a href="#harmonogram" class="btn">Harmonogram</a>
-		<a href="#spotkania" class="btn">Spotkania</a>
-		<a href="#jo" class="btn">O projekcie</a>
-		
+         <div class = "tresc">
+            <p>3.11 - spotkanie z opiekunem, poznanie się, po merytorycznej dyskusji spośród 3 głównych propozycji wybieramy 1</p>
+            <p>6.11 - spotykamy się w 5, wstępna rozmowa na temat projektu. Idziemy razem do sali z stołem ping-pongowym tam wymieniami się pierwszymi spostrzeżeniami,</br>w celu zoobrazowanie pierwszych możliwych problemów nagrywamy grę kamerą pod różnych kątem</p>
+            <p>15.11 - spotkanie na którym cały czas zastanawiamy się nad głównym aspektem aplikacji </br> (czy punkty mają być naliczane ze względu na kamere rejestrującą ruch piłki czy też zawodnika podnoszącego ręke w przypadku zdobycia punktu)</p>
+            <p>11.12 - wspólne zbieranie materiałów na temat technologii jakiej chcemy używać </p>
+            <p>18.12 - spotkanie z opiekunem omówienie kwestii dostępu do wymaganego sprzętu oraz oprogramowania  a także podział pracy na czas świąteczny </p>
+            <p>17.01 - przedstawienie wyników pracy zrealizowanej w okresie świątecznym oraz określenie problemów do dalszego dopracowania z podziałem na członków zespołu.</p>
+            <p>1.02 – spotkanie z koordynatorem przedmiotu, złożenie przez każdego członka zespołu raportu semestralnego zaprezentowanie skryptu pozwalającego na śledzenie obiektu oraz modelu bazodanowego na jakim będzie opierać się projekt.</p>
+			<p>8.03 – stworzenie bazy danych typowo pod projekt ustalenie regularnych spotkań we wtorki</p>
+			<p>27.03 – rozważania na temat wyboru algorytmu do rozpoznawania obiektu, stworzenie prototypu aplikacji desktopowej</p>
+		 </div>
+        
+		<div id="zespol"></div>
+         <div class="pasek" style="border-bottom: 0px"> 
+            <b>Zespół</b>
+         </div>
+ 
+	<div class="avatary">
+	<div class="row">
+		<div class="col-2" >
+			<img src="images/avatar.jpg" alt="Avatar" class="avatar">		
+			<p></p><p><b>Rafał Metkowski</b></p>
+			<p>Opiekun grupy</p>
+		</div>
+		<div class="col-2">
+			<img src="images/radek.jpg" alt="Avatar" class="avatar">
+			<p></p><p><b>Radosław Kolba</b></p>
+			<p>Kierownik</p>
+			</div>
+				<div class="col-2">
+			<img src="images/tomek.jpg" alt="Avatar" class="avatar">
+			<p></p><p><b>Tomasz Knapp</b></p>
+			<p>Sekretarz</p>
+		</div>
+		<div class="col-2">
+			<img src="images/beata.jpg" alt="Avatar" class="avatar">
+			<p></p><p><b>Beata Zejfert</b></p>
+			<p>Programista</p>
+		</div>
+		<div class="col-2">
+			<img src="images/avatar.jpg" alt="Avatar" class="avatar">
+			<p></p><p><b>Michał Skrzyński</b></p>
+			<p>Programista</p>
+		</div>
+		<div class="col-2">
+			<img src="images/avatar.jpg" alt="Avatar" class="avatar">
+			<p></p><p><b>Mateusz Janczarczyk</b></p>
+			<p>Programista</p>
+		</div>
 	</div>
-	</nav>
-</div>
-</header>
- <div class="outer-wrapper">
-
-  <div class="s-wrap s-type-1" role="slider">
-    <input type="radio" id="s-1" name="slider-control" checked="checked">
-    <input type="radio" id="s-2" name="slider-control">
-    <input type="radio" id="s-3" name="slider-control">
-    <input type="radio" id="s-4" name="slider-control">
-    <input type="radio" id="s-5" name="slider-control">
-    <ul class="s-content">
-      <li class="s-item s-item-1"></li>
-      <li class="s-item s-item-2"></li>
-      <li class="s-item s-item-3"></li>
-      <li class="s-item s-item-4"></li>
-      <li class="s-item s-item-5"></li>
-    </ul>
-    <div class="s-control">
-      <label class="s-c-1" for="s-1"></label>
-      <label class="s-c-2" for="s-2"></label>
-      <label class="s-c-3" for="s-3"></label>
-      <label class="s-c-4" for="s-4"></label>
-      <label class="s-c-5" for="s-5"></label>
-    </div>
-    <div class="s-nav">
-      <label class="s-nav-1 right" for="s-2"></label>
-      <label class="s-nav-2 left" for="s-1"></label>
-      <label class="s-nav-2 right" for="s-3"></label>
-      <label class="s-nav-3 left" for="s-2"></label>
-      <label class="s-nav-3 right" for="s-4"></label>
-      <label class="s-nav-4 left" for="s-3"></label>
-      <label class="s-nav-4 right" for="s-5"></label>
-      <label class="s-nav-5 left" for="s-4"></label>
-    </div>
-  </div>
-
-
-  
-</div>
-
-
-
-
-<br /><br />
-<div class="pasek" id="idea">
-<b> Idea Projektu</b>
-</div>
-<div class = "tresc">
-<br/>
-Idea projektu powstała podczas spotkania zespołu 3 listopada 2017 roku.<br/> Naszym celem jest stworzenie nowatorskiego systemu liczenia punktów podczas grania w ping-ponga.
-<br/> Z doświadczenia wiemy że gracze często nie mogą się skupić na grze a czasami nawet kłócą się jaki jest faktycznie wynik.<br/>  Poprzez rejestrowanie całego przebiegu meczu kamerą jesteśmy w stanie na żywo liczyć punkty obu graczom <br /> oraz umieszczać je na stronie co mogłoby posłużyć do łatwego tworzenia turnieji między kilkoma graczami a także publikowanie wyników w internecie.
-<br/><br/>
-</div>
-<div id="harmonogram"></div>
-<div class="pasek"> <b>Harmonogram</b>
-</div>
-
-<div class = "tresc">
-<p>29.11.2017 (środa) - testy z modułem wejścia</p>
-
-<p>06.12.2017 (środa) - wybranie wejścia</p>
-
-<p>13.12.2017 (środa) - zbieranie informacji</p>
-
-<p>17.01.2018 (środa) - stworzenie poprawnie działającego modułu</p>
-
-<p>25.02.2018 (niedziela) - napisanie aplikacji obsługującej sygnał z modułu</p>
-
-<p>04.03.2018 (niedziela) - testy</p>
-
-<p>18.03.2018 (niedziela) - stworzenie bazy danych z aktualnymi wynikami</p>
-
-<p>25.03.2018 (niedziela) - tworzenie trybów rozgrywki</p>
-
-<p>08.04.2018 (niedziela) - aplikacja webowa tworząca turnieje</p>
-
-<p>29.04.2018 (niedziela) - poprawki/łatki</p>
-
-<p>07.05.2018 (poniedziałek) - ostateczne oddanie projektu</p>
-</div>
-
-<div id="spotkania">
-
-<div class="pasek"> 
-
-<b>Spotkania</b></div>
-</div>
-<div class = "tresc">
-<p>3.11 - spotkanie z opiekunem, poznanie się, po merytorycznej dyskusji spośród 3 głównych propozycji wybieramy 1</p>
-<p>6.11 - spotykamy się w 5, wstępna rozmowa na temat projektu. Idziemy razem do sali z stołem ping-pongowym tam wymieniami się pierwszymi spostrzeżeniami,</br>w celu zoobrazowanie pierwszych możliwych problemów nagrywamy grę kamerą pod różnych kątem</p>
-<p>15.11 - spotkanie na którym cały czas zastanawiamy się nad głównym aspektem aplikacji </br> (czy punkty mają być naliczane ze względu na kamere rejestrującą ruch piłki czy też zawodnika podnoszącego ręke w przypadku zdobycia punktu)</p>
-<p>11.12 - wspólne zbieranie materiałów na temat technologii jakiej chcemy używać </p>
-<p>18.12 - spotkanie z opiekunem omówienie kwestii dostępu do wymaganego sprzętu oraz oprogramowania  a także podział pracy na czas świąteczny </p>
-<p>17.01 - przedstawienie wyników pracy zrealizowanej w okresie świątecznym oraz określenie problemów do dalszego dopracowania z podziałem na członków zespołu.</p>
-<p>1.02 – spotkanie z koordynatorem przedmiotu, złożenie przez każdego członka zespołu raportu semestralnego zaprezentowanie skryptu pozwalającego na śledzenie obiektu oraz modelu bazodanowego na jakim będzie opierać się projekt.</p>
-
-</div>
-<div id="galeria"></div>
-<div class="pasek"> 
-<b>Galeria </b></div>
-
-</div>
-<footer>
-Wszelkie Prawa Zastrzeżone 2018 © Tomasz Knapp 
-
-</footer>
-
-<!-- MENU -->
-<script src="https://code.jquery.com/jquery-latest.pack.js" type="text/javascript"></script>
-
-<script type="text/javascript" >
-
-$(document).ready(function(){
-
-	$('.open-menu, .hide').click(function(){
+	</div>
 	
-		$('nav').toggleClass('show');	
-	
-	});//open click
-	
-});//document ready end
-
-</script>
-
-<!-- MENU -->
-
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
-
-    <script src="js/index.js"></script>
-
-</body>
+	</div>
+      </div>
+      <footer>
+         Wszelkie Prawa Zastrzeżone 2018 © Tomasz Knapp 
+      </footer>
+      <!-- MENU -->
+      <script src="https://code.jquery.com/jquery-latest.pack.js" type="text/javascript"></script>
+      <script type="text/javascript" >
+         $(document).ready(function(){
+         
+         	$('.open-menu, .hide').click(function(){
+         	
+         		$('nav').toggleClass('show');	
+         	
+         	});//open click
+         	
+         });//document ready end
+         
+      </script>
+      <!-- MENU -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+      <script src='https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
+      <script src="js/index.js"></script>
+   </body>
 </html>
