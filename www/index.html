@@ -12,33 +12,43 @@
       <meta name="Keywords" content="programowanie,zespół 10,ping-pong,ping-point,liczenie punktów ping pong" />
       <meta name="description" content="Ping-Point - Innowacyjna aplikacja liczącą w czasie rzeczywistym punkty podczas grania w Ping-Ponga" />
       <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
-      <title>Ping Point - Aplikacja stworzona przez Zespół X</title>
-		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      
+	  <title>Ping Point - Aplikacja stworzona przez Zespół X</title>
+	  
+	  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+	  <link rel="stylesheet" href="css/bootstrap.css">
 
-      <!-- ManyChat -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <script src="//widget.manychat.com/2119834964919654.js" async="async"></script>
-      <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="css/style.css">
    </head>
-      <div class='cont' >
-         <header>
-            <div class="navi">
-               <div class="logo" >
-                  <a href="index.html"><img id="logo" src="images/unnamed.png"  alt="Logo zespól 10"/> </a>	
-               </div>
-               <a href="#" class="btn open-menu">MENU</a>
-               <div class="menur">
-                  <nav class="clearfix">
-                     <a href="#" class="btn hide" >&laquo; Zamknij</a>
-                     <a href="#zespol"  class="btn">Zespół</a>
-                     <a href="#harmonogram" class="btn">Harmonogram</a>
-                     <a href="#spotkania" class="btn">Spotkania</a>
-                     <a href="#jo" class="btn">O projekcie</a>
-               </div>
-               </nav>
-            </div>
-         </header>
+     
+	 <div class='cont'> 
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+			<div class="navbar-header" >
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<div class="logo" >
+						  <a href="index.html"><img id="logo" src="images/unnamed.png"  alt="Logo zespól 10"/> </a>	
+				</div>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			  <ul class="nav navbar-nav navbar-right" id="navbarRight" >
+				<li><a href="#idea" id="aColor" >O projekcie</a></li>
+				<li><a href="#spotkania" id="aColor">Spotkania</a></li>
+				<li><a href="#harmonogram" id="aColor">Harmonogram</a></li>
+				<li><a href="#zespol" id="aColor">Zespół</a></li>
+			  </ul>
+			 
+			</div>
+		  </div>
+		</nav>		 
+		
          <div class="outer-wrapper">
             <div class="s-wrap s-type-1" role="slider">
                <input type="radio" id="s-1" name="slider-control" checked="checked">
@@ -85,6 +95,7 @@
          <div id="harmonogram"></div>
          <div class="pasek"> <b>Harmonogram</b></div>
          <div class = "tresc">
+			<br/>
             <p>29.11.2017 (środa) - testy z modułem wejścia</p>
             <p>06.12.2017 (środa) - wybranie wejścia</p>
             <p>13.12.2017 (środa) - zbieranie informacji</p>
@@ -104,6 +115,7 @@
          </div>
 
          <div class = "tresc">
+			<br/>
             <p>3.11 - spotkanie z opiekunem, poznanie się, po merytorycznej dyskusji spośród 3 głównych propozycji wybieramy 1</p>
             <p>6.11 - spotykamy się w 5, wstępna rozmowa na temat projektu. Idziemy razem do sali z stołem ping-pongowym tam wymieniami się pierwszymi spostrzeżeniami,</br>w celu zoobrazowanie pierwszych możliwych problemów nagrywamy grę kamerą pod różnych kątem</p>
             <p>15.11 - spotkanie na którym cały czas zastanawiamy się nad głównym aspektem aplikacji </br> (czy punkty mają być naliczane ze względu na kamere rejestrującą ruch piłki czy też zawodnika podnoszącego ręke w przypadku zdobycia punktu)</p>
@@ -122,32 +134,32 @@
  
 	<div class="avatary">
 	<div class="row">
-		<div class="col-2" >
+		<div class="col-lg-2 col-md-4 col-sm-6 col-xs-8 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-xs-offset-2">
 			<img src="images/avatar.jpg" alt="Avatar" class="avatar">		
 			<p></p><p><b>Rafał Metkowski</b></p>
-			<p>Opiekun grupy</p>
+			<p>Opiekun</p>
 		</div>
-		<div class="col-2">
+		<div class="col-lg-2 col-md-4 col-sm-6 col-xs-8 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-xs-offset-2">
 			<img src="images/radek.jpg" alt="Avatar" class="avatar">
 			<p></p><p><b>Radosław Kolba</b></p>
 			<p>Kierownik</p>
 			</div>
-				<div class="col-2">
+				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-8 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-xs-offset-2">
 			<img src="images/tomek.jpg" alt="Avatar" class="avatar">
 			<p></p><p><b>Tomasz Knapp</b></p>
 			<p>Sekretarz</p>
 		</div>
-		<div class="col-2">
+		<div class="col-lg-2 col-md-4 col-sm-6 col-xs-8 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-xs-offset-2">
 			<img src="images/beata.jpg" alt="Avatar" class="avatar">
-			<p></p><p><b>Beata Zejfert</b></p>
+			<p></p><p><b>Beata </br>Zejfert</b></p>
 			<p>Programista</p>
 		</div>
-		<div class="col-2">
+		<div class="col-lg-2 col-md-4 col-sm-6 col-xs-8 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-xs-offset-2">
 			<img src="images/avatar.jpg" alt="Avatar" class="avatar">
 			<p></p><p><b>Michał Skrzyński</b></p>
 			<p>Programista</p>
 		</div>
-		<div class="col-2">
+		<div class="col-lg-2 col-md-4 col-sm-6 col-xs-8 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-xs-offset-2">
 			<img src="images/avatar.jpg" alt="Avatar" class="avatar">
 			<p></p><p><b>Mateusz Janczarczyk</b></p>
 			<p>Programista</p>
