@@ -127,12 +127,12 @@ footer {
   background-size: cover;
 }
 .s-wrap .s-item-1 {
-  background-image: url("slider.jpg");
+  background-image: url("1.jpg");
   background-position: center;
   background-size: 100% 100%;
 }
 .s-wrap .s-item-2 {
-  background-image: url("3.jpg");
+  background-image: url("2.jpg");
   background-position: center;
   
 }
@@ -140,10 +140,7 @@ footer {
   background-image: url("3.jpg");
 }
 .s-wrap .s-item-4 {
-  background-image: url("3.jpg");
-}
-.s-wrap .s-item-5 {
-  background-image: url("3.jpg");
+  background-image: url("4.jpg");
 }
 
 .s-type-1 .s-control {
@@ -287,7 +284,10 @@ footer {
 	float:right;
 	margin-top:5%;
 	margin-right:5%;
-	font-size:1.8em;
+	font-size:1.5vw;
+}
+.aRaport {
+	color: #000;
 }
 	
 
@@ -394,7 +394,7 @@ footer {
 		float:left;
 		margin-left:3%;
 		margin-right:auto;
-		font-size:1.3em;
+		font-size:0.9em;
 	}
 	
 	
@@ -402,38 +402,62 @@ footer {
 
 @media only screen and (max-width: 840px) and (min-width: 768px)  {
 	#navbarRight {
-		margin-top:7%;
-		font-size:1.3em;
+		margin-top:4%;
+		font-size:0.9em;
+	}
+	#logo {
+		width:45%;
+		margin-top:10%;
 	}
 	
 }
 
 @media only screen and (max-width: 967px) and (min-width: 840px) {
 	#navbarRight {
-		margin-top:6%;
-		font-size:1.5em;
+		margin-top:2%;
+		font-size:1.1em;
 	}
+	
+	#logo {
+		width:45%;
+		margin-top:10%;
+	}
+	
+	
 }
-@media only screen and (max-width: 1030px) and (min-width: 967px)  {
+@media only screen and (max-width: 1020px) and (min-width: 967px)  {
 	#navbarRight {
-		margin-top:8%;
-		font-size:1.3em;
+		margin-top:5%;
+		font-size:0.9em;
 	}
+	
+	#logo {
+		width:45%;
+		margin-top:10%;
+	}
+	
 }
 
 
-@media only screen and (max-width: 1180px) and (min-width: 1030px)  {
+@media only screen and (max-width: 1180px) and (min-width: 1020px)  {
 	#navbarRight {
-		margin-top:6%;
-		font-size:1.5em;
+		margin-top:5%;
+		font-size:0.9em;
 	}
+	#logo {
+		width:45%;
+		margin-top:10%;
+	}
+	
 }
 
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 2180px) {
 	#navbarRight {
 		margin-right:0%;
 	}
 }
+
+
 
 
 
